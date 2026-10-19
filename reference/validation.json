@@ -1,0 +1,20 @@
+{
+  "upstream_commit": "a8b4bf27b804604dfda53da42992f100b8e4e727",
+  "reference": "Literal upstream R equations + unmodified CompQuadForm qfc.cpp; not an R runtime execution",
+  "davies_accuracy": 1e-08,
+  "qfc_cpp_sha256": "678adaf15c68e1c0932c9a01dd8eaffb5cc57ef695ba7b69c1010fc64e2f3a7e",
+  "cases": [
+    {
+      "case": "uncorrected",
+      "statistics_compared": 99,
+      "max_absolute_statistic_error": 1.1102230246251565e-14,
+      "max_absolute_pvalue_error": 1.4876001819263962e-09
+    },
+    {
+      "case": "covariates",
+      "statistics_compared": 99,
+      "max_absolute_statistic_error": 6.772360450213455e-15,
+      "max_absolute_pvalue_error": 1.487586553938769e-09
+    }
+  ]
+}

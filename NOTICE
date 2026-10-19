@@ -1,0 +1,20 @@
+spatial-sparkx: an independent native Python port of the SPARK-X algorithm.
+
+Algorithm and upstream R implementation:
+  SPARK, Shiquan Sun, Jiaqiang Zhu, and Xiang Zhou, xzhoulab.
+  https://github.com/xzhoulab/SPARK
+  Reference commit: a8b4bf27b804604dfda53da42992f100b8e4e727
+  License: GNU General Public License version 3 (see LICENSE).
+  The Python implementation is a derivative algorithm translation, with
+  explicit numerical and degenerate-input extensions documented in README.md.
+
+Independent numerical validation only (not imported by the Python package):
+  reference/compquadform/qfc.cpp is unmodified upstream source from CompQuadForm.
+  Davies' Algorithm AS 155, Robert B. Davies (1980), and CompQuadForm contributors.
+  Package authors: Pierre Lafaye De Micheaux, Pierre Duchesne, Robert B. Davies,
+  R. W. Farebrother, J. Sheil, and I. O Muircheartaigh.
+  https://github.com/cran/CompQuadForm
+  License: GPL version 2 or later; compatible with this GPL-3 distribution.
+  Source checksum is recorded in reference/validation.json.
+
+This port is not an official release from xzhoulab and does not imply endorsement.

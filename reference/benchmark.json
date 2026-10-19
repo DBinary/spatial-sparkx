@@ -1,0 +1,12 @@
+{
+  "n_observations": 100000,
+  "n_genes": 1000,
+  "nnz": 599500,
+  "n_kernels": 11,
+  "seconds": 0.30394764989614487,
+  "peak_process_rss_mib": 237.73828125,
+  "backend": "numpy",
+  "n_threads": 1,
+  "numpy": "2.2.6",
+  "scipy": "1.17.1"
+}

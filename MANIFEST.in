@@ -1,0 +1,4 @@
+include LICENSE NOTICE README.md VALIDATION.md
+recursive-include reference *.py *.R *.cpp *.h *.json *.tar.gz DESCRIPTION LICENSE.md NAMESPACE
+recursive-include tests *.py *.npz
+recursive-include examples *.py
